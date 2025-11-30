@@ -22,7 +22,7 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-display font-bold mb-4">CINEMATIC</h3>
+            <h3 className="text-2xl font-display font-bold mb-4">Rudra Studio</h3>
             <p className="text-muted-foreground leading-relaxed">
               Crafting stories in motion through premium video production and creative photography.
             </p>

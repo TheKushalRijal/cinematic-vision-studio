@@ -10,14 +10,14 @@ import project4 from "@/assets/project-4.jpg";
 const projects = [
   {
     id: 1,
-    title: "Brand Film: Urban Essence",
+    title: "Indie Film: Urban Essence",
     category: "Commercial",
     aspectRatio: "16:9",
     image: project1,
   },
   {
     id: 2,
-    title: "Fashion Campaign 2024",
+    title: "Fashion Photography: Style Unveiled",
     category: "Fashion",
     aspectRatio: "4:5",
     image: project2,
