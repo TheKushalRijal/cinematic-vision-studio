@@ -64,6 +64,25 @@ All colors MUST be HSL.
     font-feature-settings: "kern" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--accent));
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--accent) / 0.8);
   }
 }
 
@@ -95,5 +114,13 @@ All colors MUST be HSL.
   
   .hover-lift {
     @apply transition-all duration-500 hover:scale-105 hover:shadow-2xl;
+  }
+  
+  .text-shadow-glow {
+    text-shadow: 0 0 20px rgba(232, 174, 74, 0.3);
+  }
+  
+  .backdrop-blur-premium {
+    backdrop-filter: blur(20px) saturate(180%);
   }
 }
